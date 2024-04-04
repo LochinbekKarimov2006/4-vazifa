@@ -5,9 +5,10 @@ let button4 = document.querySelector("#button4");
 let button5 = document.querySelector("#button5");
 let button6 = document.querySelector("#button6");
 let button7 = document.querySelector("#button7");
-let button8 = document.querySelector("#button8");
 let button9 = document.querySelector("#button9");
 let button10 = document.querySelector("#button10");
+let button11 = document.querySelector("#button11");
+let button12 = document.querySelector("#button12");
 let txt = document.querySelector("#txt");
 
 button1.addEventListener("click", () => {
@@ -156,3 +157,19 @@ button6.addEventListener("click", () => {
 
   console.log(obj);
 });
+
+
+button7.addEventListener("click", () => {
+  txt.textContent=null;
+});
+
+button11.addEventListener("click", () => {
+  txt.setAttribute('style', 'width:240px');
+  
+});
+button12.addEventListener("click", () => {
+  txt.setAttribute('style', 'width:500px');
+});
+
+
+

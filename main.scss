@@ -24,8 +24,26 @@ body{
 #txt{
     padding: 10px;
     margin-left: 8px;
-    width: 240px;
-    height: 240px;
+    min-width: 240px;
+    min-height: 240px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.div3{
+    button{
+        width: 100px;
+        height: 100%;
+        font-size: 20px;
+    }
+}
+#button11{
+    width: 48%;
+    font-size: 20px;
+    height: 100%;
+}
+#button12{
+    width: 48%;
+    height: 100%;
+    font-size: 20px;
 }
